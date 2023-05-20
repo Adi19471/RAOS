@@ -1,0 +1,48 @@
+.rounded-pill{
+    color: black;
+    background-color: white;
+    border-radius: 50%;
+    width: 50%;
+    margin: 0px 20%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.rounded-pill:hover{
+    color: teal;
+    background-color: white;
+    border-radius: 50%;
+    width: 50%;
+    margin: 0px 20%;
+    text-align: center;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.stepData:hover{
+    background-color: teal;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    font-size:medium;
+box-shadow: 0px 0px 50px black;
+}
+
+.merquueImages{
+width: 250px;
+height: 200px;
+border: 1px solid teal;
+}
+
+
+.blink {
+    animation: blinker 1.5s linear infinite;
+    color: red;
+    font-family: sans-serif;
+}
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
