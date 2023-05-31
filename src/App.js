@@ -14,6 +14,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Footer from "./Components/Footer/Footer";
 import Projects from "./Components/Projects/Projects";
 import Howitworks from "./Components/Howitworks/Howitworks";
+import Createprojectdetailes from "./Components/Createprojectdetailes/Createprojectdetailes";
 
 const App = () => {
   return (
@@ -29,6 +30,8 @@ const App = () => {
           <Route path="/Contact" element={<Contact />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
           <Route path="/Howitworks" element={<Howitworks />}></Route>
+
+          <Route path="/Createprojectdetailes" element={<Createprojectdetailes />}></Route>
 
           
         </Routes>

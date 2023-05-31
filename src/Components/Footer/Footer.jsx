@@ -137,7 +137,7 @@ const Footer = () => {
               className="text-center p-3"
               style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
             >
-              Copyright © Freelancer IT 2023 • All rights reserved
+              • All rights reserved
               <a className="text-white" href="">
                 &nbsp; Rao's Technology
               </a>

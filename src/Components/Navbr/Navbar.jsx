@@ -5,8 +5,7 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 
-import adi from "./images/adi.jpg";
-import Academic from "./images/Academic-college-projects.png"
+
 
 const Navbar = () => {
   return (

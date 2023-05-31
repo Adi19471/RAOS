@@ -2,12 +2,10 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import "./Home.css";
 
-import One from "./images/Home.gif";
+
 import Two from "./images/1.gif";
 
-import ONE from "./images/accadamic1.jpg";
-import TWO from "./images/accadamic2.jpg";
-import THREE from "./images/accadamic3.jpg";
+
 
 import Monggodb from "./images/Mongodb.jpg";
 import Express from "./images/Express.jpg";
@@ -27,7 +25,7 @@ import Human from "./images/Human.jpg";
 
 const Home = () => {
   const params = useParams();
-  const userID = params.userID;
+
   return (
     <>
       <div className="container-fluid">

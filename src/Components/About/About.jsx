@@ -8,11 +8,40 @@ import adi from "./images/IT PROJECTS.png";
 export const About = () => {
   return (
     <>
+
+
+<div className="container bg-dark text-white">
+  <div className="row">
+    <div className="col">
+
+
+
+<h2>    ACADEMIC PROJECTS </h2>  
+
+<p className="lead mt-5"> academic project for IT and management Student as part of their BBA,MCA, BE, B Tech, BCA, M. Sc and B. Sc ( Computer Science, IT) courses.
+
+Students can discover the project concepts and our team helps students to learn, develop, deploy and present this as projects. These projects will give an excellent exposure to cutting edge technologies. Our team has helped lot of students to successfully submit academic projects and there by adding more values to their resumes. We have a variety of engineering projects in multiple domains, including: .NET projects, ASP.NET with C# projects ASP.NET with VB project, Java Based Projects & latest web technologies based project.
+</p>
+<center>
+<span>Academic Project for</span>
+
+<h5>  B.Tech  |  M.Tech  |  BBA  |  BCA  |  MCA  |  Bsc  |  Msc  |  Diploma </h5>
+
+<span>Technologies we teach</span>
+
+<h5>Java  |  DotNet  |  PHP   |   MEAN Stack  |  Python |  Mean Stack  |  Machine Learning | Data Analytics  |  Javascript  |  </h5>
+
+</center>
+    </div>
+  </div>
+</div>
+
+
       <div className="container">
         <div className="row">
           <div className="col">
             <h1> WHO ARE WE</h1>
-            <p className="mute">
+            <p className="mute bg-dark text-white">
               FreelancerIT is the first freelancing site specialized on the IT
               market from NTH. It is the meeting place of three best friends:
               businesses, freelancers and opportunities. FreelancerIT emerged
@@ -28,7 +57,7 @@ export const About = () => {
         <div className="row">
           <div className="col">
             <h1> WHAT WE OFFER</h1>
-            <p className="mute">
+            <p className="mute  bg-dark text-white">
               At FreelancerIT we provide intermediation services between labor
               and projects. We welcome on the platform all IT enthusiasts: from
               students who want to support themselves while finishing their
@@ -51,7 +80,7 @@ export const About = () => {
         <div className="row">
           <div className="col">
             <h1> WHAT WE BELIVE IN </h1>
-            <p className="mute">
+            <p className="mute bg-dark text-white">
               First and foremost we believe in the people on
               this site. We believe in those who want to develop and grow, both
               small companies and IT professionals and we know that we can
@@ -67,7 +96,7 @@ export const About = () => {
 <div className="container">
 <div className="row">
   <div className="col">
-  <img src="https://www.freelancerit.ro/userfiles/images/about_us_img1.png" alt=""  className="w-100"/>
+  <img src="https://www.freelancerit.ro/userfiles/images/about_us_img1.png" alt=""  className="bg-dark text-white w-100"/>
   </div>
 </div>
 </div>
@@ -85,7 +114,7 @@ export const About = () => {
               existing site?
             </p>
 
-            <p className="lead">
+            <p className="lead ">
               My office is in Begampet but I design and develop websites for
               companies, individuals and agencies across india, London and the
               UK remotely to build beautiful, fast, intuitive websites.
